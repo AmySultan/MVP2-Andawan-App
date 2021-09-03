@@ -13,7 +13,7 @@ function NavBar() {
 				collapseOnSelect
 			>
 				<Navbar.Brand>
-					<img src={logo} width="70px" height="60px" alt="logo" />{" "}
+					<img src={logo} width="50px" height="60px" alt="logo" />{" "}
 				</Navbar.Brand>
 				<Navbar.Toggle className="coloring" />
 				<Navbar.Collapse>
@@ -37,6 +37,13 @@ function NavBar() {
 								<li className="nav-item">
 									<a className="nav-link" href="#">
 										Home
+									</a>
+								</li>
+							</Link>
+							<Link to="/Information">
+								<li className="nav-item">
+									<a className="nav-link" href="#">		
+										Information Page
 									</a>
 								</li>
 							</Link>
