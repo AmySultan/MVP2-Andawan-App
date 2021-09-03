@@ -75,7 +75,7 @@ textarea {
   
   /* --------------------------------------------NaVBar---------------------------------------- */
   .theBar {
-    background-color:dimgrey;
+    background-color:rgb(119, 119, 119);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   }
   
@@ -85,6 +85,21 @@ textarea {
     font-family: Roboto;
   }
   
+  :root {
+    --primary: #ddd;
+    --dark: rgb(0, 0, 0);
+    --light: rgb(255, 255, 255);
+    --shadow: 0 5px 15px rgba(39, 37, 37, 0.8);
+  }
+
+  .btn {
+    background: var(--dark);
+    color: var(--light);
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+  }
+
   section {
     width: 100%;
     display: inline-block;
@@ -187,18 +202,17 @@ textarea {
 
   /* -------------------------------------------------Pages Background CSS------------------------------------------------------- */
 
-  /* html, body {
+  html, body {
     width: 100%;
     height:100%;
   }
   
   body {
-      background: linear-gradient(-45deg, #ffffff, #e2fff4, #92bfd0, #a5f3e1);
+      background: rgb(160, 154, 154);
       background-size: 400% 400%;
-      animation: gradient 15s ease infinite;
   }
   
-  @keyframes gradient {
+  /* @keyframes gradient {
       0% {
           background-position: 0% 50%;
       }
