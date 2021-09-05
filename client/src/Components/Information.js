@@ -21,7 +21,7 @@ function Information() {
     			<section className="boxes">
       			<div className="box">
         			<i className="video-box"></i>
-        			<h4>Video Related to NCR</h4>
+					<a href="https://www.youtube.com/embed/PRhOEdDlvYM">Video Related to NCR</a>
         			<p>Claiming Native Title in Sabah</p>
 					<span>
 					<iframe width="350" height="250" src="https://www.youtube.com/embed/PRhOEdDlvYM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -29,22 +29,19 @@ function Information() {
       			</div>
       			<div className="box">
         			<i className="image2"></i>
-        			<h4>NGO's</h4>
-        			<p>Pacos Trust</p>
-					<span onClick={PacosTrust =>
-	            	(window.location.href ="https://pacostrust.com")}>
+        			<a href="https://pacostrust.com">Website Dedicated To Support Indigenous Communities</a>
+        			{/* <p>Pacos Trust</p> */}
+					<span>
 					<iframe width="350" height="250" src="https://pacostrust.com/">
 					</iframe>
           			</span>
       			</div>
       			<div className="box">
         			<i className="image3"></i>
-        			<h4>Official Portal of the High Court in Sabah and Sarawak</h4>
-        			<span onClick={Gothere =>
-	            	(window.location.href ="https://judiciary.kehakiman.gov.my/portals/")}>
+					<a href="https://judiciary.kehakiman.gov.my/portals/">Official Portal of the High Court in Sabah and Sarawak</a>
+        			<span>
 					<iframe width="350" height="250" src="https://judiciary.kehakiman.gov.my/portals/"></iframe>
-					Go there
-          			</span>
+		   			</span>
       			</div>
       			</section>
 
@@ -52,13 +49,23 @@ function Information() {
     			<section className="info">
       				<img src="https://www.borneotoday.net/wp-content/webp-express/webp-images/uploads/2017/02/tana-ncr.jpg.webp" alt="borneotoday" width="500" height="300" />
       			<div>
-        			<h2>What's Andawan About</h2>
-        			<p>It is a platform for natives in Sabah to connect with lawyers/experts for their traditional land disputes.</p>
+        			<h3>For more informations, visit websites below:</h3>
+        			<a href="https://sagc.sabah.gov.my/?q=en/content/land-ordinance-cap-68">Land Ordinance Cap.68</a>
+					<br></br>
+					<a href="https://www.borneotoday.net/natives-deserve-their-land-an-insight-into-sabah-customary-rights/">An Insight Into Sabah Customary Rights</a>
+					<br></br>
+					<a href="https://www.malaysiakini.com/news/541426">Native Customary Rights</a>
+					<br></br>
+					<a href="http://ukmpress.ukm.my/index.php?route=product/product&product_id=472">Publication: An Introduction to Sabah Native Land Law</a>
+					<br></br>
+					<a href="https://www.forestpeoples.org/sites/default/files/private/publication/2013/12/conflict-or-consent-chapter-10-sabah-genting-plantations-and-sungai-and-dusun-peoples.pdf">Sabah: Genting Plantations and the Sungai
+and Dusun Peoples</a>
+					<br></br>
         			<a href="#" className="btn">Learn More</a>
       			</div>
     			</section>
 
-    	
+				
   		</div>
 	);
 }
